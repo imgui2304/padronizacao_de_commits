@@ -8,6 +8,10 @@
       "prepare-commit-msg": "exec < /dev/tty && npx cz --hook || true"
     }
   },
+  "scripts": {
+    "commit": "git-cz",
+    "prepare": "husky install"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/imgui2304/padronizacao_de_commits.git"
