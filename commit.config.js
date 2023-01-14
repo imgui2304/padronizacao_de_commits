@@ -4,5 +4,5 @@ module.exports = {
 
 
 function sla(){
-  console.log('');
+  console.log('aa');
 }
